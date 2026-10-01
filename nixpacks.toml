@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["...", "ffmpeg"]
+nixPkgs = ["ffmpeg"]
 
 [start]
-cmd = "python video_note_bot.py"
+cmd = "python video_note_bot-3.py"
